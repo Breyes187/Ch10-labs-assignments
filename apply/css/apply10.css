@@ -56,6 +56,35 @@ button {
     margin-left: 6%;
 }
 
+/*Animation*/
+@-webkit-keyframes color {
+  from { background-color: #fbdae9; }
+  to { background-color: #660b32: }
+}
+
+@keyframes color {
+  from { background-color: #fbdae9; }
+  to { background-color: #660b32: }
+}
+
+/* Standard and Webkit-prefixed animations for .square */
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: #33091b;
+    margin-left: 6%;
+    -webkit-animation-name: color;
+    -webkit-animation-duration: 5s;
+    animation-name: color;
+    animation-duration: 5s;
+}
+
+/* Style for .square with .hoverProcedo class on hover */
+.square.hoverProcedo:hover {
+    -webkit-transform: translate(80px);
+    transform: translate(80px); 
+}
+
 /* Style rules for the footer */
 footer {
 	font-size: .90em;

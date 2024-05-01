@@ -1,5 +1,5 @@
 /*
-    Student Name:
+    Student Name: Brandon Reyes
     File Name: script.js
-    Date: 
+    Date: 5/1/2024
 */

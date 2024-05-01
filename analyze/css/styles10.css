@@ -1,6 +1,6 @@
 /*
-    Author:
-    Date:
+    Author: Brandon Reyes
+    Date: 5/1/2024
     File Name: styles.css
 */
 
@@ -35,14 +35,14 @@ nav ul {
 
 nav li {
 	display: inline;
-	list-style-type: none; 
-	margin: 0.3em; 
-	padding: 0.4em;  
+	list-style-type: none;
+	margin: 0.3em;
+	padding: 0.4em;
 }
 
-nav li a { 
-	color: #0C1C96; 
-	text-decoration: none; 
+nav li a {
+	color: #0C1C96;
+	text-decoration: none;
 }
 
 main {
@@ -53,7 +53,19 @@ main {
 	padding: 1em;
 	border-radius: 6px;
 	background-color: #fff;
-	border: inset 0.2em #7a6d68; 
+	border: inset 0.2em #7a6d68;
+}
+
+#placeholder {
+	display: none;
+}
+
+figure {
+	text-align: center;
+}
+
+img {
+	padding: 1em;
 }
 
 footer {
